@@ -3,6 +3,7 @@
 pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+// modi
 contract FDToken is ERC20 {
     constructor(uint256 initialSupply) ERC20("FeeDu", "FD") {
         _mint(msg.sender, initialSupply);

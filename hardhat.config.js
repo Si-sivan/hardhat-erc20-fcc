@@ -15,11 +15,11 @@ module.exports = {
     compilers: [
       {
         version: "0.8.18",
-     },
+      },
       {
         version: "0.8.20"
       },]
-    },
+  },
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {
